@@ -23,12 +23,15 @@ public class Main {
         library.add(new Book("Java Concurency in Practice", "Brian Goetz", "9780321349606", 2006));
         library.add(new Book("java 8 Pocket guide", "Robert Liguory", "9785845920508", 2015));
         //menu
+        bool menuExt;
+        while(!menuExt){
+            System.out.println("MENU. ENTER NUMBER TO MAKE:");
+            System.out.println("1.Add book");
+            System.out.println("2.Show all books");
+            System.out.println("3.Search by name");
+            System.out.println("4.Delete by ISBN");
+        }
 
-        System.out.println("MENU. ENTER NUMBER TO MAKE:");
-        System.out.println("1.Add book");
-        System.out.println("2.Show all books");
-        System.out.println("3.Search by name");
-        System.out.println("4.Delete by ISBN");
     }
 
 
