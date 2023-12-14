@@ -75,7 +75,21 @@ public class Main {
                     break;
                 }
                 case 3: {
+                    System.out.println("Enter name");
+                    readString = console.nextLine();
+                    boolean nobooksfound = true;
 
+                    for(int i = 0; i < library.size();i++){
+                        if(library.get(i).name.toLowerCase().contains(readString.toLowerCase())) {
+                            System.out.println(">------------->");
+                            System.out.println(library.get(i).getInfo());
+                            nobooksfound = false;
+                        }
+                    }
+                    if(nobooksfound){
+                        System.out.println("NO BOOKS FOUND");
+                    }
+                    System.out.println(">-------------.");
                     break;
                 }
                 case 4: {
