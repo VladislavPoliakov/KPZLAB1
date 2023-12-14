@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 class Book {
@@ -24,12 +25,27 @@ public class Main {
         library.add(new Book("java 8 Pocket guide", "Robert Liguory", "9785845920508", 2015));
         //menu
         bool menuExt;
+        String readString;
+        int readInt;
         while(!menuExt){
             System.out.println("MENU. ENTER NUMBER TO MAKE:");
             System.out.println("1.Add book");
             System.out.println("2.Show all books");
             System.out.println("3.Search by name");
             System.out.println("4.Delete by ISBN");
+            try {
+                readInt = System.in.readLine();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            switch (readInt){
+                case 1: break;
+                case 2: break;
+                case 3: break;
+                case 4: break;
+                default: break;
+            }
+
         }
 
     }
