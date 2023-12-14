@@ -16,6 +16,10 @@ class Book {
         this.isbn = num;
         this.year = yr;
     }
+    public String getInfo(){
+        String fullInfo = this.name + " | " + this.author + " | " + this.isbn + " | " + this.year;
+        return fullInfo;
+    }
 }
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -58,11 +62,16 @@ public class Main {
                     readInt = console.nextInt();
 
                     yearTemp = readInt;
+                    library.add(new Book(nameTemp,authorTemp,isbnTemp,yearTemp));
                     break;
 
                 }
                 case 2: {
-
+                    for(int i = 0; i < library.size();i++){
+                        System.out.println(">------------->");
+                      System.out.println(library.get(i).getInfo());
+                    }
+                    System.out.println(">-------------.");
                     break;
                 }
                 case 3: {
@@ -74,7 +83,7 @@ public class Main {
                     break;
                 }
                 case 9: {
-
+                menuExt = true;
                     break;
                 }
                 default: {
