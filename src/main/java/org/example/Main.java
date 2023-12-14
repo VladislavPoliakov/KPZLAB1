@@ -121,11 +121,145 @@ public class Main {
                     break;
                 }
             }
-
         }
-
     }
-
-
-
 }
+/* MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+2
+>------------->
+Head first. Java | Kathy Sierra | 9785699545742 | 2003
+>------------->
+Effective Java | Joshua Bloch | 9780132345286 | 2008
+>------------->
+Java Concurency in Practice | Brian Goetz | 9780321349606 | 2006
+>------------->
+java 8 Pocket guide | Robert Liguory | 9785845920508 | 2015
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+1
+Enter name:
+Not real book
+Enter author:
+ME
+Enter ISBN:
+0001112223334
+Enter year:
+2025
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+2
+>------------->
+Head first. Java | Kathy Sierra | 9785699545742 | 2003
+>------------->
+Effective Java | Joshua Bloch | 9780132345286 | 2008
+>------------->
+Java Concurency in Practice | Brian Goetz | 9780321349606 | 2006
+>------------->
+java 8 Pocket guide | Robert Liguory | 9785845920508 | 2015
+>------------->
+Not real book | ME | 0001112223334 | 2025
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+3
+Enter name
+Not
+>------------->
+Not real book | ME | 0001112223334 | 2025
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+4
+Enter ISBN
+Not real book | ME | 0001112223334 | 2025
+NO BOOKS DELETED
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+4
+Enter ISBN
+0001112223334
+>------------->
+Not real book | ME | 0001112223334 | 2025 | DELETED
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+2
+>------------->
+Head first. Java | Kathy Sierra | 9785699545742 | 2003
+>------------->
+Effective Java | Joshua Bloch | 9780132345286 | 2008
+>------------->
+Java Concurency in Practice | Brian Goetz | 9780321349606 | 2006
+>------------->
+java 8 Pocket guide | Robert Liguory | 9785845920508 | 2015
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+3
+Enter name
+NOT
+NO BOOKS FOUND
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+3
+Enter name
+JAVA
+>------------->
+Head first. Java | Kathy Sierra | 9785699545742 | 2003
+>------------->
+Effective Java | Joshua Bloch | 9780132345286 | 2008
+>------------->
+Java Concurency in Practice | Brian Goetz | 9780321349606 | 2006
+>------------->
+java 8 Pocket guide | Robert Liguory | 9785845920508 | 2015
+>-------------.
+MENU. ENTER NUMBER TO MAKE:
+1.Add book
+2.Show all books
+3.Search by name
+4.Delete by ISBN
+9.EXIT
+9
+
+Process finished with exit code 0
+*/
