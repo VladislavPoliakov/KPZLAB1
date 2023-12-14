@@ -93,7 +93,23 @@ public class Main {
                     break;
                 }
                 case 4: {
+                    System.out.println("Enter ISBN");
+                    readString = console.nextLine();
+                    boolean nobooksfound = true;
 
+                    for(int i = 0; i < library.size();i++){
+                        if(library.get(i).isbn.equals(readString)) {
+                            System.out.println(">------------->");
+                            System.out.print(library.get(i).getInfo());
+                            System.out.println(" | DELETED");
+                            library.remove(i);
+                            nobooksfound = false;
+                        }
+                    }
+                    if(nobooksfound){
+                        System.out.println("NO BOOKS DELETED");
+                    }
+                    System.out.println(">-------------.");
                     break;
                 }
                 case 9: {
